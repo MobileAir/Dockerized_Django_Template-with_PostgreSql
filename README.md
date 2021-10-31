@@ -1,19 +1,9 @@
 # Docker Template with Django, Nginx, Celery, Redis and Postgresql
 
-Where it is described how this boilerplate was created from scratch so that you can build your own.
-
-## Advantages
-1. Ready to use with your django project.
-2. Combined with NGINX, Redis, Celery to handle relevent things.
-3. Alpine based images are used, so that sizes of the images are compartively low.
-4. Now comes built it with Numpy, Scipy and Pandas support. So you can integrate your datascience projects with this.
-5. With Numpy, Pandas and Scipy dependecies installed, the total size is 657MB(may differ if you have more packages). Without these, size reduces to 390MB.
-6. Now comes with support to install [Pillow](https://pypi.org/project/Pillow/) using django.
-
 ## Basic Usage
 1. First run **`make build`** inside root directory.
 2. Then run **`make up`** to start up the project for first time.
-3. 
+
 ## Preview
 A default Django project resides in `src` directory. So, when you start the project, you will see the following screen in `8000` port:
 
