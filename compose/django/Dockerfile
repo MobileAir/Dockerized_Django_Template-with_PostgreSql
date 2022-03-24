@@ -1,7 +1,7 @@
 # pull official python alpine image
 # Change to slim to install from pip and delete apk
-# FROM python:3.8-slim
-FROM python:3.8-alpine
+# FROM python:3.9-slim
+FROM python:3.9-alpine
 
 # Set Environment Variable
 ENV PYTHONUNBUFFERED 1
